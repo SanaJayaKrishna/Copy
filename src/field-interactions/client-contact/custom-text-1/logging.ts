@@ -6,6 +6,7 @@ const interaction: FieldInteraction = {
   invokeOnInit: false,
   script: (API: FieldInteractionAPI) => {
     console.log('LOGGING', API.globals);
+    // JK Comment
   },
 };
 
